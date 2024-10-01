@@ -43,8 +43,8 @@ fun LemonadeApp(modifier: Modifier = Modifier) {
                 Spacer(modifier = Modifier.height(16.dp))
                 Image(
                     painter = painterResource(R.drawable.lemon_tree),
-                    contentDescription = "Lemon Tree"
-                    modifier = Modifier.clickable { currentStep = 1 }
+                    contentDescription = "Lemon Tree",
+                    modifier = Modifier.clickable { currentStep = 2 }
                 )
                 Spacer(modifier = Modifier.height(16.dp))
                 Text(text = stringResource(id = R.string.lemon1), fontSize = 24.sp)
